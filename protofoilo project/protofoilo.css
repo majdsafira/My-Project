@@ -2,18 +2,29 @@
     margin: 0px;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
+
+
 
 .navbar {
     background-image: linear-gradient(#012169, #183780,#012169 );
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
+            /*horizntal css edit*/
 hr {
-    border: 3px solid white;
+    border: 3px solid gray;
     width: 50%;
     margin-left: 25%;
 }
+            
+            
 
+/**************************************************************************************************/
             /*CARD 1*/
             /*BACKGROUND IMAGE EDIT*/ 
 .card1 {
@@ -23,7 +34,10 @@ hr {
     color: white;
     height: 500px;
     padding: 0%;
-    margin: 0%;
+    margin-top: 50px;
+    text-align: center;
+    font-weight: bold;
+    
 }
             /*HEADDING EDIT*/
 .card1 h3 {
@@ -33,14 +47,24 @@ hr {
     font-weight: bold;
 
 }
-            /*PARAGRAPH EDIT*/
-.card1 p {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: 20px;
-    font-weight: bolde;
-    font-size: large;
-}
+
+
+.animated::after{
+
+    font-size: 2rem;
+    content: "Developer";
+    color: var(--main) ;
+    animation: about 5s linear infinite;
+  }
+  @keyframes about {
+    50%{ content: "Freelancer";
+
+    }
+    100%{ content: "Designer";
+
+    }
+  }
+
 
             /*CARD 1 CIRCLE IMAGE EDIT*/
 .card1 img {
@@ -55,11 +79,14 @@ hr {
      box-shadow: black 1px 1px 50px 1px;
 
 }
+            
+.card1 hr {
+    border: 3px solid white;
+    width: 50%;
+    margin-left: 25%;
+}
 
-
-
-
-
+/**************************************************************************************************/
             /*CARD 2*/
 
 .card2 {
@@ -68,81 +95,350 @@ hr {
     background-position: center;
     color: white;
     height: 500px;
-    padding: 0%;
-    margin: 0%;
-}
-
-           /*CARD 2 CIRCLE IMAGE EDIT*/
-.card2 img {
-    width: 280px;
-    height: 280px;
-    margin: 50px;
+    color: black;
    
-       
+    
+ 
+}
+            /*TEXT edit in card 2*/
+ .text-about {
+     display: flex;
+     text-align: center;
+     justify-content: center;
+     align-content: center;
+     flex-direction: column;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: bolde;
+     font-size: x-large;
+    
+
  }
              /*HEADDING EDIT*/
 .card2 h3 {
-    text-align: center;
-    padding-top: 13px;
+    padding-top: 35px;
+    display: flex;
+    justify-content: center;
     font-family: 'Abril Fatface'; font-size: 42px;
     font-weight: bold;
     color: #012169;
     
 }
-            /*card 2 div edit*/
-.card2 div{
-    display: flex;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolde;
-    font-size: large;
-    text-align: center;
-    
-    
-}
             /*card 2 description edit*/
-.card2 div div {
-    margin-top: 50px;
-    margin-left: 120px;
-    flex-direction: column;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolde;
-    font-size: large;
+hr {
+    border: 3px solid gray;
+    width: 50%;
+    margin-left: 25%;
 }
 
 
-
-
-
+/**************************************************************************************************/
             /*CARD 3*/
 
 .card3 {
     background-image: url(img/white-concrete-wall.jpg);
     background-size: cover;
     background-position: center;
-    color: black;
+    color: white;
     height: 500px;
-    padding: 0%;
-    margin: 0%;
+    color: black;
 }
 
+          /*TEXT edit in card 3*/
+.edu-text {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolde;
+    font-size: larger;
+           
+}       
 
+.card3 img {
+    margin: auto;
+    padding-top: 8px;
+    width: 130px;
+    height: 130px;
+}
            /*HEADDING EDIT*/
 .card3 h3 {
     text-align: center;
-    padding-top: 13px;
+    padding-top:15px;
     font-family: 'Abril Fatface'; font-size: 42px;
     font-weight: bold;
     color: #012169;
 }
 
-            /*card 2 description edit*/
-.card3 p {
-    margin-top: 50px;
+.card3 h5 {
+    text-align: center;
+    padding-top:10px;
+    font-family: 'Abril Fatface'; font-size: 42px;
+    font-weight: bold;
+    color: forestgreen;
+}
+
+
+
+
+/**************************************************************************************************/
+            /*card 4*/
+
+.card4 {
+    background-image: url(img/white-concrete-wall.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 500px;
+    color: black;
+}
+
+         /*TEXT edit in card 4*/
+.exp-text {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolde;
     font-size: x-large;
+           
+}     
+
+          /*HEADDING EDIT*/
+.card4 h3 {
     text-align: center;
+    padding-top:40px;
+    font-family: 'Abril Fatface'; font-size: 42px;
+    font-weight: bold;
+    color: #012169;
 }
 
+.exp-img {
+    display: flex;
+    width: 95%;
+    margin-top: 80px;
+    
+}
+
+.orange {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+   
+}
+.eltzem {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+   
+}
+.injaz {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+   
+}
+
+/**************************************************************************************************/
+            /*card 5*/
+
+.card5 {
+    background-image: url(img/white-concrete-wall.jpg);
+    background-size: cover;
+    color: white;
+    height: 500px;
+    color: black;
+    width: 100%;
+    
+}
+
+.skills {
+    display: flex;
+    width: 100%;
+}
+          /*HEADDING EDIT*/
+.card5 h3 {
+    text-align: center;
+    padding-top:35px;
+    font-family: 'Abril Fatface'; font-size: 42px;
+    font-weight: bold;
+    color: #012169;
+}
+
+
+            /*soft-skill edit*/
+.soft-skill {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+   
+}
+
+
+p {
+    font-size: 20px;
+    font-family: 'Abril Fatface';
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+
+.containe {
+        background-color: rgb(192, 192, 192);
+        width: 80%;
+        border-radius: 15px;
+    }
+  
+.skill {
+        background-color: rgb(116, 194, 92);
+        color: white;
+        padding: 1%;
+        text-align: right;
+        font-size: 20px;
+        border-radius: 15px;
+    }
+.time {
+    width: 80%;
+}
+
+.comu {
+    width: 85%;
+}
+
+.fleex {
+    width: 95%;
+}
+
+
+
+            /*tech-skill edit*/
+.tech-skill {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+
+p {
+    font-size: 20px;
+    font-family: 'Abril Fatface';
+    font-weight: bold;
+    text-align: center;
+    color: black;
+  
+}
+
+.containe {
+    background-color: rgb(192, 192, 192);
+    width: 80%;
+    border-radius: 10px;
+    
+
+
+}
+
+.skill {
+    background-color: rgb(116, 194, 92);
+    color: white;
+    padding: 1%;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.cplus {
+    width: 60%;
+}
+
+.html {
+    width: 85%;
+}
+
+.c {
+    width: 40%;
+}
+
+/**************************************************************************************************/
+            /*card 6*/
+
+.card6 {
+    background-image: url(img/white-concrete-wall.jpg);
+    background-size: cover;
+    color: white;
+    height: 500px;
+    color: black;
+    width: 100%;
+                
+}   
+
+@media screen and (min-width: 320px) and (max-width: 768px)
+{ 
+    .card4 {
+        background-image: url(img/white-concrete-wall.jpg);
+        background-size: cover;
+        color: black;
+        height: 100%;
+    }
+
+    .exp-img {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .exp-text {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolde;
+        font-size: large;
+               
+    } 
+
+/***************************************************************/
+    .card5 {
+        background-image: url(img/white-concrete-wall.jpg);
+        background-size: cover;
+        height: 100%;
+    }
+    .skills {
+        width: 100%;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+  
+    }
+    .containe {
+        background-color: rgb(192, 192, 192);
+        width: 150%;
+        border-radius: 10px;
+        
+    
+    
+    }
+    .skills h3 {
+        text-align: center;
+        padding-top:30px;
+        font-family: 'Abril Fatface'; font-size: 25px;
+        font-weight: bold;
+        color: #012169;
+    }
+    
+}

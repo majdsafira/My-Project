@@ -1,104 +1,189 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <title>Title</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  
+
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="protofoilo.css">
 </head>
-  <body>
-         <!-- nav bar edit logo  -->
-      <nav class="navbar navbar-expand-sm navbar-dark ">
-          <a class="navbar-brand" href="#">Protofoilo</a>
-          <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-              aria-expanded="false" aria-label="Toggle navigation"1> <i class="fa-solid fa-bars"></i></button>
-            
-              
-                    <!-- nav bar edit button -->
-              <div class="collapse navbar-collapse" id="collapsibleNavId">
-              <ul class="navbar-nav " style="margin-left: 65%;">
-                  <li class="nav-item active">
-                      <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#">contact</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#">Experience</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#">contact</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#">Skills</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#">AboutMe</a>
-                  </li>
-              </ul>
-          </div>
-      </nav>
+
+<body>
+    <!-- nav bar edit logo  -->
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+        <a class="navbar-brand" href="#">Protofoilo</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation" 1> <i
+                class="fa-solid fa-bars"></i></button>
+
+        <!-- nav bar edit button -->
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav " style="margin-left: 70%;">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">AboutME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#edu">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#exp">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skill">Skills</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
 
-                    <!-- card 1 edit -->
-      <div class="card-main">
-      <div class="card1">
-              <img src="img/pic1.png">
-              <div>
-              <h3>Majd Safira</h3><hr/>
-              <p>A Full-Stack Web Developer</p>
-              </div>
-      </div>
-      </div>
-                    <!-- card 2 edit -->
-      <div class="card-main">
-      <div class="card2">
-              <h3>About ME</h3>
-              <div>
-              <img src="img/majd.png">
-              <div>
-                Majd Ibrahim Safira<br/>
-                A Full-Stack Web Developer<br/>
-                Studying Computer information systems at University of Jordan<br/><br/><br/>
-                <ul type="none">
-                    <li>Date of Birth: 20-08-2001</li>
-                    <li>AGE: 21 </li>
-                    <li>PHONE: +9627 7809 7928</li>
-                    <li>Address: ZARQA - JORDAN</li>
-                </ul>
-              </div>
-              </div>
-              
-      </div>
-      </div>
-      <div class="card-main">
-      <div class="card3">
-              <h3>Education</h3><br/>
-              <p>
-              Computer information systems at
-              </p>
-              <h3>University of Jordan</h3> <br/>
-              <p>
-                  Expected Graduation Date: May 2024 <br/>
-                  GPA: 3.6 <br/>
-              </p>
-              
-      </div>
-      </div>
+    <!-- card 1 edit -->
+
+    <div class="card1">
+        <div>
+            <img src="img/pic1.png" >
+            <div>
+                <h3>Majd Safira</h3>
+                <hr />
+                <p style="color: white;">A Full-Stack Web Developer</p>
+            </div>
+            <div class="animated"><span></span></div>
+        </div>
+    </div>
+
+
+    <!-- card 2 edit -->
+
+    <div class="card2" id="about">
+        <h3>About ME</h3>
+        <hr />
+
+        <div class="text-about">
+            Majd Ibrahim Safira<br />
+            A Full-Stack Web Developer<br /><br />
+            Date of Birth: 20-08-2001 <br />
+            AGE: 21 <br />
+            PHONE: +9627 7809 7928<br />
+            Address: ZARQA - JORDAN <br />
+        </div>
+
+    </div>
+
+
+    <!-- card 3 edit -->
+
+    <div class="card3" id="edu">
+        
+        <h3>Education</h3>
+        <hr />
+        <div class="edu-text">
+            Computer information systems at
+            <img src="img/University_of_Jordan_Logo.svg.png">
+            <h5>University of Jordan</h5>
+            Expected Graduation Date:
+            May 2024 <br /><br/>
+            GPA: 3.6 
+
+        </div>
+    </div>
+
+
+    <!-- card 4 edit -->
+
+    <div class="card4" id="exp">
+
+        <h3>Experiance</h3>
+        <hr />
+        <div class="exp-img">
+ 
+        <div class="eltzem exp-text">
+            <img src="img/download.jpg"><br/>
+            Volunteer at the Commit to Build<br/> the Nation Initiative<br /><br>   
+        </div>
+        <div class="orange exp-text">
+            <img src="img/general-assembly-jordan-telecom.jpg" style="width: 140px;"><br/>
+            Trinee at <br/> coding academy by orange<br><br>
+        </div>
+        <div class="injaz exp-text">
+            <img src="img/injaz.jpg" style="width: 140px;"><br/>
+            Volunteer in <br/>the Enjaz initiative<br /><br>
+        </div>     
+        </div>
+    </div>
+
+    <!-- card 5 edit -->
+
+    <div class="card5" id="skill">
+        <h3>Skills</h3><hr />
+        <div class="skills">
+
+            <div class="soft-skill">
+
+                <h3>Soft Skills</h3>
+                <p>Time Mangment</p>
+                <div class="containe">
+                    <div class="skill time">80%</div>
+                </div>
+
+                <p>Communication</p>
+                <div class="containe">
+                    <div class="skill comu">85%</div>
+                </div>
+
+                <p>Flexible</p>
+                <div class="containe">
+                    <div class="skill fleex">95%</div>
+                </div>
+            </div>
+
+            <div class="tech-skill">
+                <h3>Technical Skills</h3>
+                <p>C++</p>
+                <div class="containe">
+                    <div class="skill cplus">60%</div>
+                </div>
+
+                <p>HTML</p>
+                <div class="containe">
+                    <div class="skill html">75%</div>
+                </div>
+
+                <p>C#</p>
+                <div class="containe">
+                    <div class="skill c">40%</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
 
 
 
+    <!-- card 6 edit -->
+    <div class="card6">
+        <h3>Skills</h3><hr /> 
+
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
     <script src="https://kit.fontawesome.com/3509c2808e.js" crossorigin="anonymous"></script>
-       
-   
-  </body>
+
+</body>
+
 </html>
