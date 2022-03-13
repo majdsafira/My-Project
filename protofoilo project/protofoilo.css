@@ -37,37 +37,27 @@ p {
     color: black;
 }
 
-footer {
+footer{
+    height: 110px;
     background-color: #D3D3D3;
-    color: #012169;
-    height: 250px;
-}
-.fot {
-    display: flex;
-    width: 100%;
-
-}
-
-.first {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    width: 25%;
-}
-
-.second {
-    display: flex;
+    color: white;
+    font-size: 70%;
+    display: grid;
+    grid-template-columns: auto;
     justify-content: center;
-    flex-direction: column;
-    width: 50%;
-}
-
-.third {
-    display: flex;
-    justify-content: flex-end;
-    width: 25%;
-    
-}
+    align-items: center;
+    justify-items: center;
+  }
+  .icons a, .icons {
+    color: white;
+    padding: 10px;
+    padding-top: 20px;
+  }
+  .logo{
+    width: 100px;
+    height: 30px;
+    padding-bottom: 10px;
+  }
 /**************************************************************************************************/
             /*CARD 1*/
             /*BACKGROUND IMAGE EDIT*/ 
@@ -668,7 +658,7 @@ width: 95%;
         background-color: #012169;
         width: 100%;
         border-radius: 10px;
-        
+        opacity: 1;
     
     
     }
@@ -750,30 +740,5 @@ width: 95%;
     border: solid black 1px;
 }
 /****************************************************************/
-footer {
-    height: 100%;
-}
-.fot {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
 
-}
-
-.first {
-    
-    width: 100%;
-}
-
-.second {
-    
-  
-    width: 50%;
-}
-
-.third {
-   
-    width: 50%;
-    
-}
 }
