@@ -8,12 +8,13 @@
 
 
 .navbar {
-    background-image: linear-gradient(#778899, #708090,#778899 );
+    background-image: linear-gradient(#D3D3D3, #D3D3D3,#D3D3D3 );
     overflow: hidden;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 3;
+    color: #012169;
 }
 
             /*horizntal css edit*/
@@ -28,7 +29,45 @@ hr {
     height: 500px;
   }
             
+p {
+    font-size: 20px;
+    font-family: 'Abril Fatface';
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
 
+footer {
+    background-color: #D3D3D3;
+    color: #012169;
+    height: 250px;
+}
+.fot {
+    display: flex;
+    width: 100%;
+
+}
+
+.first {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 25%;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.third {
+    display: flex;
+    justify-content: flex-end;
+    width: 25%;
+    
+}
 /**************************************************************************************************/
             /*CARD 1*/
             /*BACKGROUND IMAGE EDIT*/ 
@@ -75,8 +114,8 @@ hr {
 .card1 img {
      border-radius: 100%;
      border: 5px solid #012169;
-     width: 280px;
-     height: 280px;
+     width: 310px;
+     height: 310px;
      display: block;
      margin-left: auto;
      margin-right: auto;
@@ -150,7 +189,7 @@ hr {
     padding: 5%;
 }
 
-.edu-lang {
+.edu-cors {
     display: flex;
     width: 100%;
        
@@ -162,11 +201,12 @@ hr {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 50px;
     width: 50%;
 }
-.lang {
+.cors {
     display: flex;
-    padding-top: 30px;
+    padding-top: 80px;
     padding-left: 20px;
     flex-direction: column;
     align-items: flex-end;
@@ -337,51 +377,6 @@ hr {
    
 }
 
-
-p {
-    font-size: 20px;
-    font-family: 'Abril Fatface';
-    font-weight: bold;
-    text-align: center;
-    color: black;
-}
-
-.containe {
-        background-color: rgb(192, 192, 192);
-        width: 100%;
-        border-radius: 15px;
-         border: solid black 1px;
-    }
-  
-.skill {
-        background-color: rgb(116, 194, 92);
-        color: white;
-        padding: 1%;
-        text-align: right;
-        font-size: 20px;
-        border-radius: 15px;
-    }
-.time {
-    width: 80%;
-}
-
-.comu {
-    width: 85%;
-}
-
-.fleex {
-    width: 65%;
-}
-.ct {
-    width: 85%;
-}
-.ps {
-    width: 50%;
-}
-
-
-
-            /*tech-skill edit*/
 .tech-skill {
     display: flex;
     justify-content: center;
@@ -391,50 +386,30 @@ p {
 }
 
 
-p {
-    font-size: 20px;
-    font-family: 'Abril Fatface';
-    font-weight: bold;
-    text-align: center;
-    color: black;
-  
-}
 
-.containe {
-    background-color: rgb(192, 192, 192);
-    width: 80%;
-    border-radius: 10px;
+.contai {
+        background-color: #012169;
+        width: 30%;
+        height: 10%;
+        border-radius: 10px;
+        border: solid rgb(255, 255, 255) 1px;
+        margin: auto;
+        font-size: 20px;
+        font-family: 'Abril Fatface';
+        font-weight: bold;
+        text-align: center;
+        color: whitesmoke;
+        opacity: 0.5;
+        transition: 1s;
+    }
+ 
+.contai:hover {
+    opacity: 1;
+    transform: scale(1.2 , 1.2);
     
+  }
 
 
-}
-
-.skill {
-    background-color: rgb(116, 194, 92);
-    color: white;
-    padding: 1%;
-    text-align: right;
-    font-size: 20px;
-    border-radius: 15px;
-}
-
-.cplus {
-    width: 60%;
-}
-
-.html {
-    width: 85%;
-}
-
-.css {
-    width: 75%;
-}
-.js {
-    width: 55%;
-}
-.md {
-    width: 65%;
-}
 
 /**************************************************************************************************/
             /*card 6*/
@@ -476,8 +451,8 @@ p {
 .ref-img {
     margin-left: 33%;
     padding-top: 10px;
-    border-radius: 100%;
-    width: calc(100% / 3);
+    width: 130px;
+    
 }
   
         /*TEXT edit in card 6*/
@@ -486,7 +461,7 @@ p {
     font-weight: bolde;
     color: wheat;
     font-size: large;
-    width: 100%;
+    
     padding: 2px 16px;
     padding-top: 15px;
                    
@@ -519,7 +494,7 @@ p {
     background-size: cover;
     background-position: center;
     color: white;
-    height: 700px;
+    height: 400px;
     padding: 1%;
 }
 
@@ -546,7 +521,7 @@ p {
     flex-direction: column;
     align-items: center;
     width: 50%;
-    margin-top: 100px;
+    
     font-size: x-large;
     margin-right:280px;
     
@@ -558,11 +533,57 @@ p {
     flex-direction: column;
     align-items: center;
     width: 50%;
-    margin-top: 100px;
     font-size: x-large;
    margin-left: 280px;
 }
 
+/***************************************************************************/
+/*card7*/
+.card8 {
+    background-image: url(img/white-concrete-wall.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 710px;
+    padding-top: 3%;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+        /*HEADDING EDIT*/
+.card8 h3 {
+    text-align: center;
+    padding-top:40px;
+    font-family: 'Abril Fatface'; font-size: 42px;
+    font-weight: bold;
+    color: #012169;
+}
+
+.language {
+        padding-left: 33%;
+}
+.containe {
+    background-color: rgb(192, 192, 192);
+    width: 50%;
+    border-radius: 15px;
+    border: solid black 1px;
+}
+
+.lang {
+    background-color: rgb(116, 194, 92);
+    color: white;
+    padding: 1%;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+}
+.ar {
+width: 95%;
+}
+.eng {
+    width: 65%;
+}
 
 
 @media screen and (min-width: 320px) and (max-width: 768px)
@@ -576,10 +597,11 @@ p {
 
     .card3 {
         height: 100%;
+        padding-top: 25%;
     }
-    .edu-lang {
+    .edu-cors {
         width: 100%;
-       flex-direction: column;
+       flex-direction: column-reverse;
        justify-content: center;
        align-items: center;
        padding-top: 25px;
@@ -593,7 +615,7 @@ p {
         align-items: flex-start;
         width: 100%;
     }
-    .lang {
+    .cors {
         display: flex;
         padding-top: 0px;
         padding-left: 0px;
@@ -642,9 +664,9 @@ p {
        align-items: center;
   
     }
-    .containe {
-        background-color: rgb(192, 192, 192);
-        width: 150%;
+    .contai {
+        background-color: #012169;
+        width: 100%;
         border-radius: 10px;
         
     
@@ -687,6 +709,12 @@ p {
     margin-left: 10%;
     opacity: 1;
 }
+.ref-img {
+    margin-left: 25%;
+ 
+    
+}
+  
 
 /***************************************************************/
 .card7 {
@@ -711,5 +739,41 @@ p {
     margin-left: 0px;
     margin-top: 0px;
 }
+/****************************************************************/
+.language {
+    padding-left: 10%;
+}
+.containe {
+    background-color: rgb(192, 192, 192);
+    width: 90%;
+    border-radius: 15px;
+    border: solid black 1px;
+}
+/****************************************************************/
+footer {
+    height: 100%;
+}
+.fot {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
 
+}
+
+.first {
+    
+    width: 100%;
+}
+
+.second {
+    
+  
+    width: 50%;
+}
+
+.third {
+   
+    width: 50%;
+    
+}
 }
