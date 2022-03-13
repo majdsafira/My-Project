@@ -418,10 +418,27 @@ hr {
 .card-pos {
     display: flex;
     margin-top: 5%;
+    width: 100%;
     
 }
 
+.frs {
+    flex-direction: column;
+    width: calc(100% /3);
+}
+
+.sco {
+    flex-direction: column;
+    width: calc(100% /3);
+}
+
+.thi {
+    flex-direction: column;
+    width: calc(100% /3);
+}
+
 .ref-card {
+
     background-color:#012169;
     box-shadow: 0 10px 10px 8px rgba(0,0,0,0.2);
     transition: 0.3s;
@@ -477,7 +494,7 @@ hr {
 }
 
 /**************************************************************************************************/
-            /*card 6*/
+            /*card 7*/
 
 .card7 {
     background-image: url(img/m.png);
@@ -680,15 +697,26 @@ width: 95%;
     
                 
 }   
+
 .card-pos {
-    display: flex;
-    width: 90%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-    
+    flex-wrap: wrap;
 }
+
+.frs {
+    flex-direction: column;
+    width: 100%;
+}
+
+.sco {
+    flex-direction: column;
+    width: 100%;
+}
+
+.thi {
+    flex-direction: column;
+    width: 100%;
+}
+
 .ref-text p {
     font-size: medium;
 }
@@ -696,11 +724,11 @@ width: 95%;
     
     width: 100%;
     margin-top: 50px;
-    margin-left: 10%;
+    margin-left: 0%;
     opacity: 1;
 }
 .ref-img {
-    margin-left: 25%;
+    margin-left: 27%;
  
     
 }
@@ -741,4 +769,30 @@ width: 95%;
 }
 /****************************************************************/
 
+}
+
+
+@media screen and (min-width: 375px) and (max-width: 430px)
+{ 
+    
+    .ref-img {
+        margin-left: 31.5%;
+     
+        
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px)
+{ 
+    .edu {
+        
+       
+        align-items: center;
+        
+    }
+    .ref-img {
+        margin-left: 40%;
+     
+        
+    }
 }
