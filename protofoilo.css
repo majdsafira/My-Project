@@ -37,17 +37,6 @@ p {
     color: black;
 }
 
-footer{
-    height: 110px;
-    background-color: #D3D3D3;
-    color: white;
-    font-size: 70%;
-    display: grid;
-    grid-template-columns: auto;
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
-  }
   .icons a, .icons {
     color: white;
     padding: 10px;
@@ -389,7 +378,7 @@ hr {
         font-weight: bold;
         text-align: center;
         color: whitesmoke;
-        opacity: 0.5;
+        opacity: 1;
         transition: 1s;
     }
  
@@ -501,20 +490,10 @@ hr {
     background-size: cover;
     background-position: center;
     color: white;
-    height: 400px;
+    height: 360px;
     padding: 1%;
 }
 
-        
-        /*HEADDING EDIT*/
-.card7 h2 {
-    text-align: center;
-    padding-top:40px;
-    font-family: 'Abril Fatface'; font-size: 42px;
-    font-weight: bold;
-    color: white;
-
-}
 
 .contact {
     display: flex;
@@ -545,7 +524,7 @@ hr {
 }
 
 /***************************************************************************/
-/*card7*/
+/*card8*/
 .card8 {
     background-image: url(img/white-concrete-wall.jpg);
     background-size: cover;
@@ -578,7 +557,7 @@ hr {
 }
 
 .lang {
-    background-color: rgb(116, 194, 92);
+    background-color: #012169;
     color: white;
     padding: 1%;
     text-align: right;
